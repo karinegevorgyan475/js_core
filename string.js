@@ -15,8 +15,8 @@ console.log(capitalize("i AM ARMENIAN"));
 function getInitials (name)
 {
     let index = name.indexOf(" ");
-    start = name.at(0).toUpperCase(name)
-    end = name.at(index + 1).toUpperCase(name);
+    let start = name.at(0).toUpperCase(name)
+    let end = name.at(index + 1).toUpperCase(name);
     return (start + "." + end + "."); 
 
 }
@@ -53,7 +53,7 @@ console.log(lengthGetLastChar ("Computer"));
 /*
 function makeSlug (title)
 {
-    slug = title.trim();
+let slug = title.trim();
     slug = slug.toLowerCase();
     slug = slug.replaceAll(" ","-");
     return slug;
@@ -110,7 +110,7 @@ console.log(isImage("file.png"));
 //8 maskCard(cardNumber)․ թողնել միայն վերջին 4 թվանշը։
 /*
 function maskCard (cardNumber)
-{   lastFour = cardNumber.slice(-4);
+{ let lastFour = cardNumber.slice(-4);
     return lastFour.padStart(cardNumber.length,"*");
 };
 console.log(maskCard("123456789101112"));
