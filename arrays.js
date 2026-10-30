@@ -7,7 +7,7 @@ const arr2 = [6,7,5,4,-1];
 
 function getFirstAndLast(arr)
 {
-    return arr.at(0);
+    return [arr.at(0) ,arr.at(-1)];
 };
 console.log(getFirstAndLast(arr1));
 console.log(getFirstAndLast(arr2));
